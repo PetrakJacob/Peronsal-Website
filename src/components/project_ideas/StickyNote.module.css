@@ -1,0 +1,93 @@
+@font-face {
+  font-family: handWriting;
+  src: url(/media/font/caveat.ttf) format('truetype')
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap'); */
+
+.target {
+  position: fixed;
+  /* width: 350px;
+  height: 350px; */
+  top: 100px;
+  left: 100px;
+  overflow: hidden;
+  z-index: 300;
+}
+
+.header {
+  position: relative;
+  top: 0px;
+  width: 100%;
+  max-height: 70px;
+  height: 100%;
+  /* background-color: rgba(0,0,0,0.5); */
+  z-index: 300;
+  display: flex;
+  justify-content: space-between;
+}
+.greyBack {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  outline: none;
+  width: calc(100% - 150px);
+  max-height: 70px;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 300;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  font-family: handWriting;
+  overflow: hidden;
+  resize: none;
+}
+
+.pallete {
+  max-width: 75px;
+  width: 100%;
+  background-color: rgba(0,0,0, 0.5);
+  border: none;
+  transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pallete:hover {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.bin {
+  max-width: 75px;
+  width: 100%;
+  background-color: rgba(180, 0, 0, 1);
+  border: none;
+  transition: 1s;
+}
+.bin:hover {
+  background-color: rgb(255, 55, 55);
+}
+
+.icon {
+  width: 55px;
+  max-width: 100%;
+  height: 55px;
+  max-height: 100%;
+}
+
+
+.body {
+  z-index: 10!important;
+  font-family: handWriting, cursive;
+  background-color: rgba(0,0,0,0);
+  width: 100%;
+  height: calc(100% - 70px);
+  border: none;
+  color: whitesmoke;
+  position: relative;
+  font-size: 30px;
+  z-index: 300;
+  text-decoration: none;
+}

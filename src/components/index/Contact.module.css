@@ -1,0 +1,45 @@
+.batteryBase {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  min-height: 100%;
+}
+
+.redCircle:hover {
+  fill: #844242;
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+  .redCircle {
+    r: 25%;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+  .redCircle {
+    r: 25%;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  .redCircle {
+    r: 20%;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  .redCircle {
+    r: 16%;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+  .redCircle {
+    r: 15%;
+  }
+}

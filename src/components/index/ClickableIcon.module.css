@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.container:hover {
+  background-color: rgba(228, 246, 248, 0.1);
+  border: 2px solid white;
+}
+.icon {
+  width: 40%;
+  height: auto;
+}
+
+.iconDescription {
+  text-align: center;
+  font-family: terminal;
+  color: #868686;
+  font-size: 25px;
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+  .iconDescription {
+    font-size: 10px;
+  }
+}
+@media only screen and (min-width : 320px) {
+  .iconDescription {
+    font-size: 15px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+  .iconDescription {
+    font-size: 20px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  .iconDescription {
+    font-size: 25px;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  .iconDescription {
+    font-size: 30px;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+  .iconDescription {
+    font-size: 35px;
+  }
+}

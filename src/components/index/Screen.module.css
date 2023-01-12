@@ -1,0 +1,61 @@
+.container {
+  background-color: #303030;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  /* border: 4px solid blanchedalmond; */
+}
+
+.screenText {
+  font-family: terminal;
+  color: orange;
+  display: block;
+  margin: 30px;
+  letter-spacing: 2px;
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+  .screenText {
+    font-size: 25px;
+    line-height: 35px;
+  }
+}
+@media only screen and (min-width : 320px) {
+  .screenText {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+  .screenText {
+    font-size: 30px;
+    line-height: 70px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  .screenText {
+    font-size: 35px;
+    line-height: 100px;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  .screenText {
+    font-size: 40px;
+    line-height: 100px;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+  .screenText {
+    font-size: 50px;
+    line-height: 100px;
+  }
+}
