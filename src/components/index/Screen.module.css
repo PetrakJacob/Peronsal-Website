@@ -1,3 +1,9 @@
+@font-face {
+  font-family: terminal;
+  src: url(/media/font/clacon2.woff2) format('woff2'),
+    url(/media/font/clacon2.ttf) format('truetype')
+}
+
 .container {
   background-color: #303030;
   border-radius: 20px;

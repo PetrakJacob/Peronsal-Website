@@ -50,8 +50,10 @@ export default function StickyNote(props) {
     document.querySelector(`.container${props._id}`).style.cssText = `transform: translate(${props.x}px, ${props.y}px)!important`;
     // change in isze resets the box so it doesnt get displaced
     let ogWidth = getComputedStyle(targ).getPropertyValue('width').match(/\d+/)[0];
-    targ.style.width = `${+ogWidth - 1}px`
-    targ.style.width = `${+ogWidth}px`
+    targ.style.width = `${+ogWidth + 1}px`
+    setTimeout(() => {
+      targ.style.width = `${+ogWidth}px`
+    }, 500);
   }, [props.x, props.y]);
 
   // width / height change
